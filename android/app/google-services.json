@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457530541139",
+    "project_id": "vozpopular-1c0b0",
+    "storage_bucket": "vozpopular-1c0b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457530541139:android:9b347253eef0ee3c4ff2a6",
+        "android_client_info": {
+          "package_name": "com.vozpopular.voz_popular"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWXx5Yj1NpDmRfItfuS4z3POtTBiSrk6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
