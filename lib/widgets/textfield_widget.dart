@@ -37,7 +37,8 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
           ),
           suffixIcon: widget.prefixIcon!=null?IconButton(icon: Icon(widget.prefixIcon!), onPressed: widget.onPrefixAction ?? (){},):null,
 
-          fillColor: const Color(0xA0FFFFFF),
+          //fillColor: const Color(0xA0FFFFFF),
+          fillColor: const Color(0xFFFFFFFF),
           filled: true,
           contentPadding: const EdgeInsets.symmetric(horizontal: 15),
 
