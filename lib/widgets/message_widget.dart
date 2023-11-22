@@ -11,16 +11,17 @@ class MessageWidget extends StatelessWidget{
     return Align(
       alignment: role==OpenAIChatMessageRole.user?Alignment.centerRight:Alignment.centerLeft,
       child: Container(
-        decoration: const BoxDecoration(
-          color: Color(0xFF04364A),
-          borderRadius: BorderRadius.all(Radius.circular(20))
+        decoration: BoxDecoration(
+          color: role==OpenAIChatMessageRole.user?const Color(0xFF04364A):
+          const Color(0xFF176B87),
+          borderRadius: const BorderRadius.all(Radius.circular(20))
         ),
         child: Padding(
           padding: const EdgeInsets.all(10),
           child: Text(
             message,
-            style: const TextStyle(
-              color: Color(0xFFDAFFFB)
+            style: TextStyle(
+              color: role==OpenAIChatMessageRole.user?const Color(0xFFDAFFFB):const Color(0xFFDAFFFB)
             ),
           ),
         )

@@ -55,7 +55,13 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           useMaterial3: true,
           fontFamily: 'GlacialIndifference',
-          inputDecorationTheme: const InputDecorationTheme()
+          inputDecorationTheme: const InputDecorationTheme(),
+          bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+            backgroundColor: Color(0xFF04364A),
+            showUnselectedLabels: false,
+            unselectedItemColor: Color(0xFF64CCC5),
+            selectedItemColor: Color(0xFFDAFFFB)
+          )
         ),
         home: const MainView(),
       ),
